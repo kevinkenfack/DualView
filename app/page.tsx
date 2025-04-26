@@ -3,6 +3,7 @@ import { Github, ArrowRight, Moon, Zap, Layers, Palette } from "lucide-react"
 import FeatureCard from "@/components/feature-card"
 import Footer from "@/components/footer"
 import DemoAnimation from "@/components/demo-animation"
+import Link from 'next/link'
 
 export default function LandingPage() {
   return (
@@ -31,10 +32,10 @@ export default function LandingPage() {
 
           <div className="flex items-center gap-3">
             <Button asChild variant="outline" size="sm" className="hidden sm:flex">
-              <a href="/app">
+              <Link href="/app">
                 Essayer maintenant
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </a>
+              </Link>
             </Button>
             <Button asChild size="sm" className="bg-zinc-900 hover:bg-zinc-800">
               <a href="https://github.com/username/theme-switch" target="_blank" rel="noopener noreferrer">
