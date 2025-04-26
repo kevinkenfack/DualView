@@ -60,10 +60,10 @@ export default function LandingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-zinc-900 hover:bg-zinc-800 px-8 py-6 text-lg rounded-xl">
-                <a href="/app">
+                <Link href="/app">
                   Essayer gratuitement
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </a>
+                </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="px-8 py-6 text-lg rounded-xl border-zinc-300">
                 <a href="#demo">Voir la démo</a>
